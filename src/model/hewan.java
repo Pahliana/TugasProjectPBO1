@@ -53,14 +53,18 @@ public class hewan {
 
     //Constructor
     public hewan(){
-        namaHewan = "Masih Kosong";
-        jenisHewan = "Masih Kosong";
+        System.out.println("=====================================================");
+        namaHewan = "Tolong Isi Nama Hewan";
+        jenisHewan = "Tolong Isi Jenis Hewan";
+        warnaHewan = "Tolong Isi Warna Hewan";
+        jenisKelamin = "Tolong Isi Jenis Kelamin Hewan";
+        makananHewan = "Tolong Isi Makanan Hewan";
+        panggilanHewan = "Tolong Isi Nama Panggilan Hewan";
     }
 
-    public hewan(String namaHewan, String jenisHewan, String jenisKelamin) {
-        this.namaHewan = namaHewan;
+    public hewan(String jenisHewan, int umurHewan) {
         this.jenisHewan = jenisHewan;
-        this.jenisKelamin = jenisKelamin;
+        this.umurHewan = umurHewan;
     }
 
     public hewan(String namaHewan, String panggilanHewan, String jenisHewan, String jenisKelamin, int umurHewan) {
