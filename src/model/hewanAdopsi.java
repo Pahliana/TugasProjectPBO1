@@ -1,7 +1,8 @@
 package model;
 
 //SubClass/Child-Class
-public class hewanAdopsi {
+public class hewanAdopsi extends hewan {
+
     public String namaHewanAdopsi;
     public String namaPemilikAdopsi;
     public int umurHewanAdopsi;

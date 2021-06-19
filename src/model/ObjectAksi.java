@@ -18,7 +18,6 @@ public class ObjectAksi {
         hewan1.create("Catty");
 
 
-
         //object Class 2
         hewanAdopsi adopsi = new hewanAdopsi();
         adopsi.namaHewanAdopsi = "Anjing";
@@ -26,7 +25,6 @@ public class ObjectAksi {
         adopsi.umurHewanAdopsi = 1;
         adopsi.infoAdopsi();
         adopsi.pemilik();
-
 
     }
 }
