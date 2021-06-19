@@ -18,4 +18,29 @@ public class hewanAdopsi extends hewan {
         System.out.println(pm);
     }
 
+    //Getter dan Setter(Seluruh)
+
+    public String getNamaHewanAdopsi() {
+        return namaHewanAdopsi;
+    }
+
+    public void setNamaHewanAdopsi(String namaHewanAdopsi) {
+        this.namaHewanAdopsi = namaHewanAdopsi;
+    }
+
+    public String getNamaPemilikAdopsi() {
+        return namaPemilikAdopsi;
+    }
+
+    public void setNamaPemilikAdopsi(String namaPemilikAdopsi) {
+        this.namaPemilikAdopsi = namaPemilikAdopsi;
+    }
+
+    public int getUmurHewanAdopsi() {
+        return umurHewanAdopsi;
+    }
+
+    public void setUmurHewanAdopsi(int umurHewanAdopsi) {
+        this.umurHewanAdopsi = umurHewanAdopsi;
+    }
 }

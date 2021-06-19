@@ -74,4 +74,63 @@ public class hewan {
         this.jenisKelamin = jenisKelamin;
         this.umurHewan = umurHewan;
     }
+
+
+    //Getter dan Setter(Seluruh)
+
+    public String getPanggilanHewan() {
+        return panggilanHewan;
+    }
+
+    public void setPanggilanHewan(String panggilanHewan) {
+        this.panggilanHewan = panggilanHewan;
+    }
+
+    public String getJenisHewan() {
+        return jenisHewan;
+    }
+
+    public void setJenisHewan(String jenisHewan) {
+        this.jenisHewan = jenisHewan;
+    }
+
+    public String getJenisKelamin() {
+        return jenisKelamin;
+    }
+
+    public void setJenisKelamin(String jenisKelamin) {
+        this.jenisKelamin = jenisKelamin;
+    }
+
+    public String getWarnaHewan() {
+        return warnaHewan;
+    }
+
+    public void setWarnaHewan(String warnaHewan) {
+        this.warnaHewan = warnaHewan;
+    }
+
+    public String getMakananHewan() {
+        return makananHewan;
+    }
+
+    public void setMakananHewan(String makananHewan) {
+        this.makananHewan = makananHewan;
+    }
+
+    public int getJumlahKaki() {
+        return jumlahKaki;
+    }
+
+    public void setJumlahKaki(int jumlahKaki) {
+        this.jumlahKaki = jumlahKaki;
+    }
+
+    public int getUmurHewan() {
+        return umurHewan;
+    }
+
+    public void setUmurHewan(int umurHewan) {
+        this.umurHewan = umurHewan;
+    }
 }
