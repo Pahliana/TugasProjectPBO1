@@ -5,14 +5,15 @@ public class hewan {
 
     // 8 atribut class hewan
 
-    String namaHewan;
-    String panggilanHewan;
-    String jenisHewan;
-    String jenisKelamin;
-    String warnaHewan;
-    String makananHewan;
-    int jumlahKaki;
-    int umurHewan;
+    public String namaHewan;
+    public String panggilanHewan;
+    public String jenisHewan;
+    public String jenisKelamin;
+    public String warnaHewan;
+    public String makananHewan;
+    public int jumlahKaki;
+    public int umurHewan;
+
 
     // 4 Method class hewan
 
@@ -52,6 +53,7 @@ public class hewan {
     }
 
     //Constructor
+
     public hewan(){
         System.out.println("=====================================================");
         namaHewan = "Tolong Isi Nama Hewan";
