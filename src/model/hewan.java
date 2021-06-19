@@ -1,5 +1,6 @@
 package model;
 
+//SuperClass/Parent-Class
 public class hewan {
 
     // 8 atribut class hewan
@@ -15,8 +16,12 @@ public class hewan {
 
     // 4 Method class hewan
 
-    public void tampilkanAtribut(){}
-    public void tampilkanInfoHewan(){}
+    public void tampilkanAtribut(){
+
+    }
+    public void tampilkanInfoHewan(){
+
+    }
     public boolean create(){
         return false;
     }
