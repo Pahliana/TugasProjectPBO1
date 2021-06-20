@@ -54,6 +54,7 @@ public class hewan {
 
     //Constructor
 
+
     public hewan(){
         System.out.println("=====================================================");
         namaHewan = "Tolong Isi Nama Hewan";

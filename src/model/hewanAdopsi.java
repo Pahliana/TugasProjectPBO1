@@ -43,4 +43,17 @@ public class hewanAdopsi extends hewan {
     public void setUmurHewanAdopsi(int umurHewanAdopsi) {
         this.umurHewanAdopsi = umurHewanAdopsi;
     }
+
+
+    //Overriding
+
+    @Override
+    public boolean create(String panggilanHewan) {
+        return super.create(panggilanHewan);
+    }
+
+    @Override
+    public boolean create() {
+        return super.create();
+    }
 }

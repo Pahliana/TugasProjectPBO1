@@ -29,7 +29,7 @@ public class ObjectAksi {
         adopsi.pemilik();
 
 
-        //Constructor
+        //Constructor dengan method (Object)
         hewan c1 = new hewan();
         c1.tampilkanInfoHewan();
         hewan c2 = new hewan();
@@ -45,6 +45,11 @@ public class ObjectAksi {
         hewan c6 = new hewan("Burung", "Zero", "Pipit", "Jantan",3);
         c6.tampilkanAtribut();
 
+
+        //Overriding
+        hewanAdopsi over = new hewanAdopsi();
+        over.create();
+        over.create(" Tutul");
 
     }
 }
