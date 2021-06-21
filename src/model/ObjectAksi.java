@@ -20,10 +20,10 @@ public class ObjectAksi {
 
         //object Class 2
         hewanAdopsi adopsi = new hewanAdopsi();
-        adopsi.namaHewanAdopsi = "Anjing";
-        adopsi.namaPemilikAdopsi = "Fitriani";
-        adopsi.umurHewanAdopsi = 1;
-        adopsi.panggilanHewan = "Kalu";
+        adopsi.namaPemilikAdopsi = "Anjing";
+        adopsi.umurPemilikAdopsi = 20;
+        adopsi.alamatPemilikAdopsi = "Jln. Bukit Raya Indah No.41";
+        adopsi.namaHewan = "Kelinci";
         adopsi.warnaHewan = "Hitam";
         adopsi.infoAdopsi();
         adopsi.pemilik();

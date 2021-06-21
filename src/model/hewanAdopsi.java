@@ -3,15 +3,15 @@ package model;
 //SubClass/Child-Class
 public class hewanAdopsi extends hewan {
 
-    public String namaHewanAdopsi;
+    public int umurPemilikAdopsi;
     public String namaPemilikAdopsi;
-    public int umurHewanAdopsi;
+    public String alamatPemilikAdopsi;
 
     public void infoAdopsi(){
         System.out.println("=====================================================");
-        System.out.println("Nama Hewan Yang Diadopsi : "+namaHewanAdopsi);
-        System.out.println("Nama Pemilik Adopsi : "+namaPemilikAdopsi);
-        System.out.println("Umur Hewan Adopsi : "+umurHewanAdopsi);
+        System.out.println("Nama Hewan Yang Diadopsi : "+namaPemilikAdopsi);
+        System.out.println("Nama Pemilik Adopsi : "+umurPemilikAdopsi);
+        System.out.println("Umur Hewan Adopsi : "+alamatPemilikAdopsi);
     }
     public void pemilik(){
         String pm = "INSERT INTO hewan VALUES ('"+namaPemilikAdopsi+"')";
@@ -20,12 +20,12 @@ public class hewanAdopsi extends hewan {
 
     //Getter dan Setter(Seluruh)
 
-    public String getNamaHewanAdopsi() {
-        return namaHewanAdopsi;
+    public int getUmurPemilikAdopsi() {
+        return umurPemilikAdopsi;
     }
 
-    public void setNamaHewanAdopsi(String namaHewanAdopsi) {
-        this.namaHewanAdopsi = namaHewanAdopsi;
+    public void setUmurPemilikAdopsi(int umurPemilikAdopsi) {
+        this.umurPemilikAdopsi = umurPemilikAdopsi;
     }
 
     public String getNamaPemilikAdopsi() {
@@ -36,12 +36,12 @@ public class hewanAdopsi extends hewan {
         this.namaPemilikAdopsi = namaPemilikAdopsi;
     }
 
-    public int getUmurHewanAdopsi() {
-        return umurHewanAdopsi;
+    public String getAlamatPemilikAdopsi() {
+        return alamatPemilikAdopsi;
     }
 
-    public void setUmurHewanAdopsi(int umurHewanAdopsi) {
-        this.umurHewanAdopsi = umurHewanAdopsi;
+    public void setAlamatPemilikAdopsi(String alamatPemilikAdopsi) {
+        this.alamatPemilikAdopsi = alamatPemilikAdopsi;
     }
 
 
