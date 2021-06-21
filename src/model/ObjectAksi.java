@@ -17,8 +17,8 @@ public class ObjectAksi {
         hewan1.umurHewan = 1;
         hewan1.tampilkanAtribut();
         hewan1.tampilkanInfoHewan();
-        hewan1.create();
-        hewan1.create("Catty");
+        hewan1.halloMakanan();
+        hewan1.halloJenisHewan();
 
 
         //object Class 2
@@ -40,19 +40,24 @@ public class ObjectAksi {
 
         //Constructor Menggunakan Generate
 
-        hewan c3 = new hewan("Kucing", "Tamus", "Persia", "Jantan",2);
-        c3.tampilkanInfoHewan();
-        c3.tampilkanAtribut();
+        hewan c2 = new hewan("Kucing", "Tamus", "Persia", "Jantan",2);
+        c2.tampilkanInfoHewan();
+        c2.tampilkanAtribut();
 
-        hewan c4 = new hewan("Sapi","Momo","Holstein","Jantan","Putih-Hitam","Rumput",4,3);
-        c4.tampilkanAtribut();
-        c4.tampilkanInfoHewan();
+        hewan c3 = new hewan("Sapi","Momo","Holstein","Jantan","Putih-Hitam","Rumput",4,3);
+        c3.tampilkanAtribut();
+        c3.tampilkanInfoHewan();
 
 
         //Overriding
         hewanAdopsi over = new hewanAdopsi();
-        over.create();
-        over.create(" Tutul");
+        over.namaHewan = "Ular";
+        over.jenisHewan = "Sanca";
+        over.makananHewan = "Tikus + Kelinci + Ayam + dan Lainnya";
+        over.halloJenisHewan();
+        over.halloMakanan();
+
+
 
     }
 }

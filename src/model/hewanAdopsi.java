@@ -7,8 +7,12 @@ public class hewanAdopsi extends hewan {
     public String namaPemilikAdopsi;
     public String alamatPemilikAdopsi;
 
+
+    // 2 Method Class Hewan Adopsi
+
     public void infoAdopsi(){
-        System.out.println("=====================================================");
+        System.out.println();
+        System.out.println("====================================================================");
         System.out.println("Nama Pemilik Yang Mengadopsi : "+namaPemilikAdopsi);
         System.out.println("Umur Pemilik yang Mengadopsi : "+umurPemilikAdopsi);
         System.out.println("Alamat Pemilik yang Mengadopsi : "+alamatPemilikAdopsi);
@@ -46,15 +50,15 @@ public class hewanAdopsi extends hewan {
     }
 
 
-    //Overriding
+    //2 Overriding
 
     @Override
-    public boolean create(String panggilanHewan) {
-        return super.create(panggilanHewan);
+    public void halloMakanan() {
+        super.halloMakanan();
     }
 
     @Override
-    public boolean create() {
-        return super.create();
+    public void halloJenisHewan() {
+        super.halloJenisHewan();
     }
 }
