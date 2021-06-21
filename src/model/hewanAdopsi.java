@@ -9,14 +9,15 @@ public class hewanAdopsi extends hewan {
 
     public void infoAdopsi(){
         System.out.println("=====================================================");
-        System.out.println("Nama Hewan Yang Diadopsi : "+namaPemilikAdopsi);
-        System.out.println("Nama Pemilik Adopsi : "+umurPemilikAdopsi);
-        System.out.println("Umur Hewan Adopsi : "+alamatPemilikAdopsi);
+        System.out.println("Nama Pemilik Yang Mengadopsi : "+namaPemilikAdopsi);
+        System.out.println("Umur Pemilik yang Mengadopsi : "+umurPemilikAdopsi);
+        System.out.println("Alamat Pemilik yang Mengadopsi : "+alamatPemilikAdopsi);
     }
     public void pemilik(){
-        String pm = "INSERT INTO hewan VALUES ('"+namaPemilikAdopsi+"')";
+        String pm = "INSERT INTO hewan VALUES Nama Pemilik = ('"+namaPemilikAdopsi+"')";
         System.out.println(pm);
     }
+
 
     //Getter dan Setter(Seluruh)
 

@@ -1,5 +1,7 @@
 package model;
 
+
+// 6 Object dengan method
 public class ObjectAksi {
     public static void main(String[] args) {
 
@@ -14,13 +16,14 @@ public class ObjectAksi {
         hewan1.jumlahKaki = 4;
         hewan1.umurHewan = 1;
         hewan1.tampilkanAtribut();
+        hewan1.tampilkanInfoHewan();
         hewan1.create();
         hewan1.create("Catty");
 
 
         //object Class 2
         hewanAdopsi adopsi = new hewanAdopsi();
-        adopsi.namaPemilikAdopsi = "Anjing";
+        adopsi.namaPemilikAdopsi = "Zaenal Rahman";
         adopsi.umurPemilikAdopsi = 20;
         adopsi.alamatPemilikAdopsi = "Jln. Bukit Raya Indah No.41";
         adopsi.namaHewan = "Kelinci";
@@ -29,21 +32,21 @@ public class ObjectAksi {
         adopsi.pemilik();
 
 
-        //Constructor dengan method (Object)
+        //Constructor
         hewan c1 = new hewan();
         c1.tampilkanInfoHewan();
-        hewan c2 = new hewan();
-        c2.tampilkanAtribut();
+        c1.tampilkanAtribut();
 
-        hewan c3 = new hewan("Burung", 2);
+
+        //Constructor Menggunakan Generate
+
+        hewan c3 = new hewan("Kucing", "Tamus", "Persia", "Jantan",2);
         c3.tampilkanInfoHewan();
-        hewan c4 = new hewan("Ayam",1);
-        c4.tampilkanInfoHewan();
+        c3.tampilkanAtribut();
 
-        hewan c5 = new hewan("Kucing", "Tamus", "Persia", "Jantan",2);
-        c5.tampilkanAtribut();
-        hewan c6 = new hewan("Burung", "Zero", "Pipit", "Jantan",3);
-        c6.tampilkanAtribut();
+        hewan c4 = new hewan("Sapi","Momo","Holstein","Jantan","Putih-Hitam","Rumput",4,3);
+        c4.tampilkanAtribut();
+        c4.tampilkanInfoHewan();
 
 
         //Overriding
