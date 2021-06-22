@@ -32,13 +32,13 @@ public class ObjectAksi {
         adopsi.pemilik();
 
 
-        //Constructor
+        //Constructor //Object 3
         hewan c1 = new hewan();
         c1.tampilkanInfoHewan();
         c1.tampilkanAtribut();
 
 
-        //Constructor Menggunakan Generate
+        //Constructor Menggunakan Generate //Object 4 dan 5
 
         hewan c2 = new hewan("Kucing", "Tamus", "Persia", "Jantan",2);
         c2.tampilkanInfoHewan();
@@ -49,7 +49,7 @@ public class ObjectAksi {
         c3.tampilkanInfoHewan();
 
 
-        //Overriding
+        //Overriding //Object 6
         hewanAdopsi over = new hewanAdopsi();
         over.namaHewan = "Ular";
         over.jenisHewan = "Sanca";
